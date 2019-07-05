@@ -1,0 +1,13 @@
+function myFunction() {
+if (document.getElementById("good").style.visibility === 'hidden') {
+document.getElementById("good").style.visibility = 'visible';
+document.getElementById("show").innerText = "Hide Me";
+	
+}
+	else{
+	document.getElementById("good").style.visibility = 'hidden';
+   document.getElementById("show").innerText = "Show Me";	
+		 
+	}
+}
+
