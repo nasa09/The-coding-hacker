@@ -1,18 +1,18 @@
 body{
-    background-color:goldenrod;
+    background-color: #f491ec;
     }
 
 * {
   box-sizing: border-box;
 }
 
-nav {
+/*nav {
     
   float: right;
 align-content: right;
   width: 100%;
   height: 90px; 
-  background:#9d8609;
+  background: aliceblue;
   padding: 20px;
   color: white;
 }
@@ -20,7 +20,7 @@ align-content: right;
 div.al {
 	  width: 20%;
       color: white;
-    }
+    }*/
 a.active {
   background-color: #4CAF50;
   color: white;
@@ -39,6 +39,24 @@ img.set {
   width: 40%;
  
  text-align: center;
-  background-color: #3c70ce;
+  background-color: lightblue;
   margin-top: 20px;
+}
+ul.navbar {
+list-style-type: none; margin: 0;
+padding: 0;
+overflow: hidden; background-color: #333;
+}
+ul li {
+    float: right;
+}
+li a {
+    display: block;
+    color: white; 
+    text-align: center; 
+    padding: 14px 16px; 
+    text-decoration: none;
+}
+li a:hover {
+background-color: #111;
 }
